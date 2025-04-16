@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-9g8a46snolbrn$nhri$8r4j)pzm#rrevjw59wzr5+j%ps(pw@a
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -127,7 +127,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 
 CORS_ALLOWED_ORIGINS = [
-    'https://portfolio-pavankumar-gadhams-projects.vercel.app',
+
     'http://localhost:4200',
 ]
 
